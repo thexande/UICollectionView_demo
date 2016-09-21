@@ -14,6 +14,8 @@
 		786F8BF91B4440060033E657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786F8BF71B4440060033E657 /* LaunchScreen.storyboard */; };
 		786F8C041B4440060033E657 /* UICollectionView_Xcode_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F8C031B4440060033E657 /* UICollectionView_Xcode_7Tests.swift */; };
 		786F8C0F1B4440060033E657 /* UICollectionView_Xcode_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F8C0E1B4440060033E657 /* UICollectionView_Xcode_7UITests.swift */; };
+		786F8C1D1B4441590033E657 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F8C1C1B4441590033E657 /* CollectionViewCell.swift */; };
+		786F8C1F1B44434A0033E657 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F8C1E1B44434A0033E657 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		786F8C0A1B4440060033E657 /* UICollectionView Xcode 7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UICollectionView Xcode 7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		786F8C0E1B4440060033E657 /* UICollectionView_Xcode_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView_Xcode_7UITests.swift; sourceTree = "<group>"; };
 		786F8C101B4440060033E657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786F8C1C1B4441590033E657 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		786F8C1E1B44434A0033E657 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				786F8BEE1B4440060033E657 /* AppDelegate.swift */,
 				786F8BF01B4440060033E657 /* ViewController.swift */,
+				786F8C1C1B4441590033E657 /* CollectionViewCell.swift */,
+				786F8C1E1B44434A0033E657 /* NewViewController.swift */,
 				786F8BF21B4440060033E657 /* Main.storyboard */,
 				786F8BF51B4440060033E657 /* Assets.xcassets */,
 				786F8BF71B4440060033E657 /* LaunchScreen.storyboard */,
@@ -192,13 +198,16 @@
 				TargetAttributes = {
 					786F8BEA1B4440050033E657 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					786F8BFE1B4440060033E657 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = 786F8BEA1B4440050033E657;
 					};
 					786F8C091B4440060033E657 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = 786F8BEA1B4440050033E657;
 					};
 				};
@@ -257,6 +266,8 @@
 			files = (
 				786F8BF11B4440060033E657 /* ViewController.swift in Sources */,
 				786F8BEF1B4440060033E657 /* AppDelegate.swift in Sources */,
+				786F8C1D1B4441590033E657 /* CollectionViewCell.swift in Sources */,
+				786F8C1F1B44434A0033E657 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.veasoftware.UICollectionView-Xcode-7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -411,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.veasoftware.UICollectionView-Xcode-7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -422,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.veasoftware.UICollectionView-Xcode-7Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionView Xcode 7.app/UICollectionView Xcode 7";
 			};
 			name = Debug;
@@ -434,6 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.veasoftware.UICollectionView-Xcode-7Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionView Xcode 7.app/UICollectionView Xcode 7";
 			};
 			name = Release;
@@ -445,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.veasoftware.UICollectionView-Xcode-7UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "UICollectionView Xcode 7";
 				USES_XCTRUNNER = YES;
 			};
@@ -457,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.veasoftware.UICollectionView-Xcode-7UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "UICollectionView Xcode 7";
 				USES_XCTRUNNER = YES;
 			};
@@ -481,6 +498,7 @@
 				786F8C151B4440060033E657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		786F8C161B4440060033E657 /* Build configuration list for PBXNativeTarget "UICollectionView Xcode 7Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +507,7 @@
 				786F8C181B4440060033E657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		786F8C191B4440060033E657 /* Build configuration list for PBXNativeTarget "UICollectionView Xcode 7UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +516,7 @@
 				786F8C1B1B4440060033E657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
